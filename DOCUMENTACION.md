@@ -64,10 +64,5 @@ Para mantener el código limpio y seguir el principio DRY, las funcionalidades c
 ## 3. Despliegue y Orquestación
 
 -   **Docker:** Cada microservicio se empaquetará en su propia imagen de Docker, garantizando un entorno de ejecución consistente.
--   **Docker Compose:** Se utilizará para orquestar todos los servicios (aplicaciones y bases de datos) en un entorno de desarrollo local, definiendo las redes, volúmenes y variables de entorno. Esto simplifica enormemente el levantamiento de todo el sistema con un solo comando.
 
 ---
-
-A continuación, la implementación detallada de cada microservicio.
-
-### **Estructura del Repositorio Git**
